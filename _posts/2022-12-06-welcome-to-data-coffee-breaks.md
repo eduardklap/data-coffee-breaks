@@ -11,8 +11,8 @@ Welcom to the EUR Data Coffee Breaks website
 
 ## Schedule
 
-Have a look at the [schedule]({{ site.github.url }}{% post_url schedule %}) for the upcoming Data Coffee Breaks. 
+Have a look at the schedule for the upcoming Data Coffee Breaks. 
 
 ## About the Breaks
 
-More information about the EUR Data Coffee Breaks: [About the Breaks]({{ site.github.url }}{% post_url about %})
+More information about the EUR Data Coffee Breaks: About the Breaks
