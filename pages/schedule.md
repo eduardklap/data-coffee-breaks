@@ -1,3 +1,10 @@
+---
+layout: page
+title: Schedule
+permalink: /schedule
+---
+
+
 ## Coffee Break Schedule 2023
 
 | Date and time | Topic | Materials |
