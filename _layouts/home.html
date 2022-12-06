@@ -3,20 +3,14 @@ layout: default
 title: Home
 ---
 
-{% for post in paginator.posts %}
-  {% include featured-post.html %}
-{% endfor %}
+<img src="assets/img/EUR_datacoffeebreaks_logo.jpg" alt="EUR Data Coffee Breaks logo" width="400"/>
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
-  {% endif %}
-</div>
+Welcom to the EUR Data Coffee Breaks website
+
+## Schedule
+
+Have a look at the [schedule]({{ site.github.url }}{% post_url schedule %}) for the upcoming Data Coffee Breaks. 
+
+## About the Breaks
+
+More information about the EUR Data Coffee Breaks: [About the Breaks]({{ site.github.url }}{% post_url about %})
